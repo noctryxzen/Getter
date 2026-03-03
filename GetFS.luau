@@ -21,3 +21,5 @@ getgenv().GetFunction = setmetatable({}, {
 		return s[n]
 	end
 })
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noctryxzen/Getter/refs/heads/main/alt.luau"))()
