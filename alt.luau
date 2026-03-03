@@ -91,7 +91,6 @@ for i, v in next, {
 	setstack = {"sstack", "stackset", "setluastack"},
 	getsimulationradius = {"gsimrad", "simradius", "getsimrad"},
 	setsimulationradius = {"ssimrad", "setsimsrad", "setsimrad"},
-	isnetworkowner = {"isnetowner2", "netowner2", "networkowner"},
 	isrbxactive = {"isactive", "robloxactive", "isrobloxfocused"},
 	isgameactive = {"isgactive", "gameactive", "isgamefocused"},
 	iswindowactive = {"iswactive", "windowactive", "iswindowfocused"},
