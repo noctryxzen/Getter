@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noctryxzen/Getter/refs/heads/main/alt.luau"))()
 getgenv().GetService = setmetatable({}, {
 	__index = function(s, n)
 		if not pcall(function()
@@ -21,5 +22,3 @@ getgenv().GetFunction = setmetatable({}, {
 		return s[n]
 	end
 })
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/noctryxzen/Getter/refs/heads/main/alt.luau"))()
